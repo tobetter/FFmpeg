@@ -1,7 +1,7 @@
 Source: ffmpeg
 Section: video
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Maintainer:Brad Harper <bjharper@gmail.com>
 XSBC-Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 Uploaders: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>,
  Alexander Strasser <eclipse7@gmx.net>,

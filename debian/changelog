@@ -1,3 +1,14 @@
+ffmpeg (7:4.3-1ubuntu2) focal; urgency=medium
+
+  * New upstream release
+    - debian/rules:
+      - Disable avisynth as headers are not longer supplied with ffmpeg
+    - debian/patches:
+      - Remove avcodec-libtwolame-fix-mono-default-bitrate.patch (already applied)
+    - Disable symbols for custom packaging new version
+
+ -- Brad Harper <bjharper@gmail.como>  Wed, 01 Jul 2020 08:23:47 +0000
+
 ffmpeg (7:4.2.2-1ubuntu1) focal; urgency=medium
 
   * Build with external nv-codec-headers for NVENC accelerated video
